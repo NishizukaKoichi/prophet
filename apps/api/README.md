@@ -1,4 +1,4 @@
-# Department of Mysteries — API (Cloudflare Workers)
+# The Prophet — API (Cloudflare Workers)
 
 This is a Cloudflare Workers API (Hono + Durable Object) skeleton that implements the core contracts and business rules from the spec.
 
@@ -60,8 +60,8 @@ Headers for local dev (temporary auth stub):
 ## Secrets 設定例
 
 ```
-wrangler d1 create dom_db
-wrangler r2 bucket create dom-assets
+wrangler d1 create prophet_db
+wrangler r2 bucket create prophet-assets
 wrangler secret put STRIPE_SECRET_KEY
 wrangler secret put STRIPE_MP_WEBHOOK_SECRET
 wrangler secret put STRIPE_SUBSCRIPTION_WEBHOOK_SECRET
