@@ -1,4 +1,4 @@
-# The Prophet
+# Prophet
 
 ## 目的
 
